@@ -21,7 +21,7 @@
 
 steamPage:
     # This is the short text appearing on the steam page
-    shortText: shapez.io is a game about building factories to automate the creation and combination of increasingly complex shapes within an infinite map.
+    shortText: shapez.io é um jogo sobre construção de fábricas para automatizar a criação e combinação de formas cada vez mais complexas dentro de um mapa infinito.
 
     # This is the long description for the steam page - It is contained here so you can help to translate it, and I will regulary update the store page.
     # NOTICE:
@@ -30,42 +30,42 @@ steamPage:
     longText: >-
         [img]{STEAM_APP_IMAGE}/extras/store_page_gif.gif[/img]
 
-        shapez.io is a game about building factories to automate the creation and combination of shapes. Deliver the requested, increasingly complex shapes to progress within the game and unlock upgrades to speed up your factory.
+        shapez.io é um jogo sobre a construção de fábricas para automatizar a criação e a combinação de formas. Entregue as formas solicitadas e cada vez mais complexas para progredir no jogo para desbloquear atualizações para acelerar sua fábrica.
 
-        Since the demand raises you will have to scale up your factory to fit the needs - Don't forget about resources though, you will have to expand in the [b]infinite map[/b]!
+        Como a demanda aumenta, você terá que ampliar sua fábrica para atender às necessidades - Não se esqueça dos recursos, porém, você terá que expandir em um [b]mapa infinito[/b]!
 
-        Since shapes can get boring soon you need to mix colors and paint your shapes with it - Combine red, green and blue color resources to produce different colors and paint shapes with it to satisfy the demand.
+        Como as formas podem ficar entediantes em breve, você precisa misturar cores e pintar suas formas - Combine recursos de cores vermelho, verde e azul para produzir cores e formas diferentes para satisfazer a demanda.
 
-        This game features 18 levels (Which should keep you busy for hours already!) but I'm constantly adding new content - There is a lot planned!
+        Este jogo possui 18 níveis (o que deve mantê-lo ocupado por horas!), Estou constantemente adicionando novos conteúdos - Há muito planejado!
 
 
-        [b]Standalone Advantages[/b]
-
-        [list]
-            [*] Waypoints
-            [*] Unlimited Savegames
-            [*] Dark Mode
-            [*] More settings
-            [*] Allow me to further develop shapez.io ❤️
-            [*] More features in the future!
-        [/list]
-
-        [b]Planned features & Community suggestions[/b]
-
-        This game is open source - Anybody can contribute! Besides of that, I listen [b]a lot[/b] to the community! I try to read all suggestions and take as much feedback into account as possible.
+        [b]Vantagens do jogo completo[/b]
 
         [list]
-            [*] Story mode where buildings cost shapes
-            [*] More levels & buildings (standalone exclusive)
-            [*] Different maps, and maybe map obstacles
-            [*] Configurable map creation (Edit number and size of patches, seed, and more)
-            [*] More types of shapes
-            [*] More performance improvements (Although the game already runs pretty good!)
-            [*] Color blind mode
-            [*] And much more!
+            [*] Marcadores
+            [*] Save ilimitados
+            [*] Modo escuro
+            [*] Mais Opções
+            [*] Ajude o desenvolvedor produzir mais shapez.io ❤️
+            [*] Mais atualizações em breve!
         [/list]
 
-        Be sure to check out my trello board for the full roadmap! https://trello.com/b/ISQncpJP/shapezio
+        [b]Futuras mudanças e sugestões da comunidade[/b]
+
+        Este jogo é de código aberto - Qualquer pessoa pode contribuir! Além disso, eu [b]ouço[/b] muito a comunidade! Eu tento ler todas as sugestões e levar em consideração o máximo de feedback possível.
+
+        [list]
+            [*] Modo história com custo de formas
+            [*] Mais Leveis e construções
+            [*] Mapas diferentes com possiveis obstáculos
+            [*] Configurações de mapa (Editar itens no mapa, seed e muito mais)
+            [*] Mais tipos de formas
+            [*] Mais melhorias de desempenho (embora o jogo já corra muito bem!)
+            [*] Modo daltônico
+            [*] E muito mais!
+        [/list]
+
+        Não deixe de conferir meu quadro do trello para obter o roteiro completo! https://trello.com/b/ISQncpJP/shapezio
 
 global:
     loading: Carregando
@@ -150,9 +150,9 @@ mainMenu:
                 <br>
                 Estou ansioso para ver suas criações incríveis!
 
-        showInfo: Participate
-        contestOver: This contest has ended - Join the discord to get noticed about new contests!
-    helpTranslate: Help translate!
+        showInfo: Participe
+        contestOver: Esse concurso terminou - Entre no discord para ser avisado de novos concursos!
+    helpTranslate: Ajude a traduzir!
 
 dialogs:
     buttons:
@@ -224,7 +224,7 @@ dialogs:
             Aqui estão as alterações desde a última vez que você jogou:
 
     upgradesIntroduction:
-        title: Desbloquear updates
+        title: Desbloquear atualizações
         desc: >-
             Todas as formas que você produz podem ser usadas para desbloquear atualizações - <strong> Não destrua suas antigas fábricas!!</strong>
              O guia de atualizações pode ser encontrada no canto superior direito da tela.
@@ -244,7 +244,7 @@ dialogs:
         desc: >-
             Este jogo possui muitas combinações de teclas que facilitam a construção de grandes fábricas
             Aqui estão alguns mas certifique-se de <strong> verificar as combinações de teclas </strong>!<br><br>
-            <code class='keybinding'>CTRL</code> + Drag: Selecione a área para copiar / delete.<br>
+            <code class='keybinding'>CTRL</code> + Tecla do mouse: Selecione a área para copiar / delete.<br>
             <code class='keybinding'>SHIFT</code>: Mantenha pressionado para colocar vários.<br>
             <code class='keybinding'>ALT</code>: Inverter as posições.<br>
 
@@ -253,8 +253,8 @@ dialogs:
         desc: De um nome
     markerDemoLimit:
         desc: >-
-            You can only create two custom markers in the demo. Get the standalone for
-            unlimited markers!
+            Voce apesas pode criar 2 marcadores na versão Demo. Adquira a versão completa para
+            marcadores infinitos!
 ingame:
     # This is shown in the top left corner and displays useful keybindings in
     # every situation
@@ -270,7 +270,7 @@ ingame:
         placeBuilding: Colocar construção
         createMarker: Criar marcador
         delete: Destruir
-        selectBuildings: Select area
+        selectBuildings: Selecionar área
 
     # Everything related to placing buildings (I.e. as soon as you selected a building
     # from the toolbar)
@@ -314,7 +314,7 @@ ingame:
     # The "Upgrades" window
     shop:
         title: Atualizações
-        buttonUnlock: Atualizações
+        buttonUnlock: Atualizar
 
         # Gets replaced to e.g. "Tier IX"
         tier: Nível <x>
@@ -339,7 +339,7 @@ ingame:
         noShapesProduced: Nenhuma forma foi produzida até o momento.
 
         # Displays the shapes per minute, e.g. '523 / m'
-        shapesPerMinute: <formas> / m
+        shapesPerMinute: <shapes> / m
 
     # Settings menu, when you press "ESC"
     settingsMenu:
@@ -385,19 +385,19 @@ ingame:
 shopUpgrades:
     belt:
         name: Esteiras, Distribuidores e Túneis
-        description: Speed x<currentMult> → x<newMult>
+        description: Velocidade x<currentMult> → x<newMult>
 
     miner:
         name: Extração
-        description: Speed x<currentMult> → x<newMult>
+        description: Velocidade x<currentMult> → x<newMult>
 
     processors:
         name: Cortar, Rotacionar e Empilhamento
-        description: Speed x<currentMult> → x<newMult>
+        description: Velocidade x<currentMult> → x<newMult>
 
     painting:
         name: Misturador e pintura
-        description: Speed x<currentMult> → x<newMult>
+        description: Velocidade x<currentMult> → x<newMult>
 
 # Buildings and their name / description
 buildings:
@@ -408,11 +408,11 @@ buildings:
 
     miner: # Internal name for the Extractor
         default:
-            name: &miner Extractor
+            name: &miner Extrator
             description: Coloque sobre uma forma ou cor para extraí-la.
 
         chainable:
-            name: Extractor (Chain)
+            name: Extrator (Chain)
             description: Coloque sobre uma forma ou cor para extraí-la. Pode ser acorrentado.
 
     underground_belt: # Internal name for the Tunnel
@@ -483,28 +483,28 @@ buildings:
             name: Estoque
             description: Armazena itens em excesso, até uma determinada capacidade. Pode ser usado como uma porta de transbordamento.
     hub:
-        deliver: Deliver
-        toUnlock: to unlock
+        deliver: Entregue
+        toUnlock: para desbloquear
         levelShortcut: LVL
 
 storyRewards:
     # Those are the rewards gained from completing the store
     reward_cutter_and_trash:
         title: Formas de corte
-        desc: Voce desbloqueou <strong>cutter</strong> - corte de formas pela metade de <strong>cima para baixo </strong> independentemente de sua orientação!<br><br> Certifique-se de se livrar do lixo, ou então <strong> ele irá parar a produção </strong> - Para esse propósito, eu lhe dei uma lixo, que destrói tudo o que você coloca nele
+        desc: Voce desbloqueou <strong>cortador</strong> - corte de formas pela metade de <strong>cima para baixo </strong> independentemente de sua orientação!<br><br> Certifique-se de se livrar do lixo, ou então <strong> ele irá parar a produção </strong> - Para esse propósito, eu lhe dei uma lixo, que destrói tudo o que você coloca nele
 
     reward_rotater:
         title: Rodando
-        desc: O <strong> rotator </strong> foi desbloqueado! Gira as formas no sentido horário em 90 graus
+        desc: O <strong> rodador </strong> foi desbloqueado! Gira as formas no sentido horário em 90 graus
 
     reward_painter:
         title: Pintando
         desc: >-
-            O <strong> pintor </strong> foi desbloqueado - Extraia algumas veias coloridas (como você faz com formas) e combine-as com uma forma no pintor para colori-las! <br> <br> PS: Se você é daltônico , Já estou trabalhando em uma solução!
+            O <strong> pintor </strong> foi desbloqueado - Extraia algumas minas de cores (como você faz com formas) e combine-as com uma forma no pintor para colori-las! <br> <br> PS: Se você é daltônico , Já estou trabalhando em uma solução!
 
     reward_mixer:
         title: Mistura de cores
-        desc: O <strong> misturador </strong> foi desbloqueado - combine duas cores usando <strong> mistura aditiva </strong> com esta construção!
+        desc: O <strong> misturador </strong> foi desbloqueado - transforma duas cores em uma <strong> mistura aditiva </strong> com esta construção!
 
     reward_stacker:
         title: Combinador
@@ -513,17 +513,17 @@ storyRewards:
     reward_splitter:
         title: Divisor/fusão
         desc: >-
-            The multifunctional <strong>balancer</strong> has been unlocked - It can be
-            used to build bigger factories by <strong>splitting and merging items</strong>
-            onto multiple belts!<br><br>
+            O multifuncional <strong>balanceador</strong> foi desbloqueado - pode ser usado para construir
+            grandes fábricas, <strong>dividindo e mesclando itens</strong>
+            em várias esteiras!<br><br>
 
     reward_tunnel:
         title: Túnel
-        desc: O <strong> túnel </strong> foi desbloqueado - Agora você pode canalizar itens através de construções!
+        desc: O <strong> túnel </strong> foi desbloqueado - Agora você pode transportar itens por baixo de construções!
 
     reward_rotater_ccw:
         title: CCW Rotação
-        desc: Você desbloqueou uma variante do <strong> rotater </strong> - permite girar no sentido anti-horário! Para construí-lo, selecione o rotador e <strong> pressione 'T' para alternar suas variantes </strong>!
+        desc: Você desbloqueou uma variante do <strong> rodador </strong> - permite girar no sentido anti-horário! Para construí-lo, selecione o rotador e <strong> pressione 'T' para alternar suas variantes </strong>!
 
     reward_miner_chainable:
         title: Extrator de encadeamento
@@ -609,7 +609,7 @@ settings:
                 super_fast: Super Rápido
 
         fullscreen:
-            title: Tecla Cheia
+            title: Tela Cheia
             description: >-
                 É recomendável jogar o jogo em tela cheia para obter a melhor experiência. Disponível apenas na versão completa.
 
@@ -619,18 +619,18 @@ settings:
                 Se ligado o jogo fica Mudo.
 
         musicMuted:
-            title: Musica
+            title: Música
             description: >-
-                Se ligado a musica é desligada.
+                Se ligado a música é desligada.
 
         theme:
             title: Tema
             description: >-
-                Escolha o tema entre (Branco / Preto).
+                Escolha o tema entre (Claro / Escuro).
 
             themes:
-                dark: Dark
-                light: Light
+                dark: Escuro
+                light: Claro
 
         refreshRate:
             title: Frequencia
@@ -648,10 +648,10 @@ settings:
                 Se deve oferecer dicas e tutoriais enquanto estiver jogando.v.
 
         language:
-            title: Language
+            title: Idioma
             description: >-
-                Change the language. All translations are user contributed and might be
-                incomplete!
+                Altere o Idioma. Todas as traduções são contribuidas pela comunidade e podem estar
+                incompletas!
 
 keybindings:
     title: Comandos
@@ -682,7 +682,7 @@ keybindings:
         mapZoomOut: Distanciar
         createMarker: Criar marcação
 
-        menuOpenShop: Atualizações
+        menuOpenShop: Aplicações
         menuOpenStats: Estatísticas
 
         toggleHud: Ocultar Menu
@@ -701,7 +701,7 @@ keybindings:
         abortBuildingPlacement: Cancelar
         rotateWhilePlacing: Rotacionar
         rotateInverseModifier: >-
-            Modifier: Rotação instantanea
+           Rotação instantânea
         cycleBuildingVariants: Variações
         confirmMassDelete: Confirmar exclusão em massa
         cycleBuildings: Trocar de construção
